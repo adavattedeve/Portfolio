@@ -1,3 +1,5 @@
+Made by Atte-Petteri Ronkanen
+
 # Project 1
 
 Objective:
