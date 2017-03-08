@@ -54,7 +54,8 @@ Objective:
 
 Most important new things learned: 
 
-    - This project was one of the more animation heavy projects, so a lot of things learned about mechanim animation system
+    - This project was one of the more animation heavy projects, so a lot of things learned about
+    mechanim animation system
 
 Estimated project time line:
 
