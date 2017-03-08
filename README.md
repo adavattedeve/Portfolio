@@ -22,6 +22,8 @@ Estimated project time line:
     started: late summer 2015
     ended: early september 2015
 
+![alt text](https://github.com/adavattedeve/Portfolio/blob/master/1/Gifs/Gameplay.gif "Gameplay")
+![alt text](https://github.com/adavattedeve/Portfolio/blob/master/1/Gifs/ItemEditor.gif "Itemeditor")
 
 #Project 2
 
@@ -44,6 +46,8 @@ Estimated project time line:
     started: early september 2015
     ended: mid december 2015
 
+![alt text](https://github.com/adavattedeve/Portfolio/blob/master/2/Gifs/Gameplay.gif "Gameplay")
+![alt text](https://github.com/adavattedeve/Portfolio/blob/master/2/Gifs/Menu.gif "Menu")
 
 #Project 3
 
@@ -62,12 +66,13 @@ Estimated project time line:
     started: late december 2015
     ended: late december 2015
 
+![alt text](https://github.com/adavattedeve/Portfolio/blob/master/3/Gifs/Gameplay.gif "Gameplay")
 
 #Project 4
 
 Objective:
 
-    Procedural world map generation with pre assigned map layout for a strategy game.
+    Procedural world map generation with preassigned map layout for a strategy game.
     Project ended due to new game project starting at school.
 
 Most important new things learned: 
@@ -79,6 +84,7 @@ Estimated project time line:
     started: early january 2016
     ended: mid january 2016
 
+![alt text](https://github.com/adavattedeve/Portfolio/blob/master/4/Gifs/MpasGenerated.gif "Gameplay")
 
 #Project 5
 
@@ -89,13 +95,14 @@ Objective:
 Most important new things learned: 
 
     - Working under high pressure
-    - Downsizing scope to be actually implementble in a given time
+    - Downsizing scope to be actually implementable in a given time
 
 Estimated project time line:
 
     started: january 2016
     ended: january 2016
 
+![alt text](https://github.com/adavattedeve/Portfolio/blob/master/5/Gifs/Gameplay.gif "Gameplay")
 
 #Project 6
 
@@ -116,6 +123,8 @@ Estimated project time line:
     started: january 2016
     ended: may 2016
 
+![alt text](https://github.com/adavattedeve/Portfolio/blob/master/6/Gifs/Gameplay.gif "Gameplay")
+
 #Project 7
 
 Objective:
@@ -133,6 +142,9 @@ Estimated project time line:
 
     started: june 2016
     ended: august 2016
+
+![alt text](https://github.com/adavattedeve/Portfolio/blob/master/7/Gifs/DungeonGeneration.gif "Gameplay")
+![alt text](https://github.com/adavattedeve/Portfolio/blob/master/7/Gifs/DifferentResults.gif "Gameplay")
 
 #Project 8
 
@@ -155,6 +167,9 @@ Estimated project time line:
     started: august 2016
     ended: november 2016
 
+![alt text](https://github.com/adavattedeve/Portfolio/blob/master/8/Gifs/Gameplay.gif "Gameplay")
+![alt text](https://github.com/adavattedeve/Portfolio/blob/master/8/Gifs/ExplosionFinal.gif "Gameplay")
+
 #Project 9
 
 Objective:
@@ -171,3 +186,5 @@ Estimated project time line:
 
     started: early march 2017
     ended: early march 2017
+    
+![alt text](https://github.com/adavattedeve/Portfolio/blob/master/9/Gifs/Gameplay.gif "Gameplay")
