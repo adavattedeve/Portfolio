@@ -1,6 +1,3 @@
-# Portfolio
-I have some gifs from every project. Link to my gfycat account: https://gfycat.com/@adavattedeve/albums
-
 # Project 1
 
 Objective:
