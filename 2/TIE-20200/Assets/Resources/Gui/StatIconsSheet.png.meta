@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: dd2d2f2ed4924984798fc49059921820
+timeCreated: 1447865000
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: OFFENCE
+    21300002: DAMAGE
+    21300004: HEALTH
+    21300006: INTELLIGENCE
+    21300008: DEFENCE
+    21300010: MANA
+    21300012: MANAREGEN
+    21300014: MOVEMENT
+    21300016: LUCK
+    21300018: KNOWLEDGE
+    21300020: DAMAGESCALING
+    21300022: DURATION
+    21300024: DURATIONSCALING
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: OFFENCE
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 392
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DAMAGE
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 392
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HEALTH
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 392
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: INTELLIGENCE
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 389
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DEFENCE
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 392
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MANA
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 201
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MANAREGEN
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 197
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOVEMENT
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 206
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LUCK
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 201
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KNOWLEDGE
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 198
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DAMAGESCALING
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DURATION
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 5
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DURATIONSCALING
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 5
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,762 @@
+fileFormatVersion: 2
+guid: cdd4c94b24d7add408c07aa6e69b57ac
+timeCreated: 1446795625
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: back.L
+    100002: back.R
+    100004: chest
+    100006: clavicle.L
+    100008: clavicle.R
+    100010: fingers.L
+    100012: fingers.R
+    100014: forearm.L
+    100016: forearm.R
+    100018: hand.L
+    100020: hand.R
+    100022: head
+    100024: hoodLast
+    100026: hoodLower
+    100028: hoodUpper
+    100030: //RootNode
+    100032: Monk
+    100034: MonkArmature
+    100036: neck
+    100038: skirtBack.L
+    100040: skirtBack.R
+    100042: skirtBackLower.L
+    100044: skirtBackLower.R
+    100046: skirtFront.L
+    100048: skirtFront.R
+    100050: skirtFrontLower.L
+    100052: skirtFrontLower.R
+    100054: spine
+    100056: upper_arm.L
+    100058: upper_arm.R
+    400000: back.L
+    400002: back.R
+    400004: chest
+    400006: clavicle.L
+    400008: clavicle.R
+    400010: fingers.L
+    400012: fingers.R
+    400014: forearm.L
+    400016: forearm.R
+    400018: hand.L
+    400020: hand.R
+    400022: head
+    400024: hoodLast
+    400026: hoodLower
+    400028: hoodUpper
+    400030: Monk
+    400032: //RootNode
+    400034: MonkArmature
+    400036: neck
+    400038: skirtBack.L
+    400040: skirtBack.R
+    400042: skirtBackLower.L
+    400044: skirtBackLower.R
+    400046: skirtFront.L
+    400048: skirtFront.R
+    400050: skirtFrontLower.L
+    400052: skirtFrontLower.R
+    400054: spine
+    400056: upper_arm.L
+    400058: upper_arm.R
+    4300000: Monk
+    7400000: MonkArmature|Attack
+    7400002: MonkArmature|Death
+    7400004: MonkArmature|Idle
+    7400006: MonkArmature|JUSTFORTESTING
+    7400008: MonkArmature|Move
+    7400010: MonkArmature|TakeDamage
+    7400012: Monk|Idle
+    9500000: //RootNode
+    13700000: Monk
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: MonkArmature|Attack
+      takeName: MonkArmature|Attack
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .681879282
+        functionName: AttackAnimationDealDamageEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .290887147
+        functionName: SpawnAttackProjectileEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monk
+        weight: 1
+      - path: MonkArmature
+        weight: 1
+      - path: MonkArmature/spine
+        weight: 1
+      - path: MonkArmature/spine/chest
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.L
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower/hoodLast
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L/skirtBackLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R/skirtBackLower.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L/skirtFrontLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R/skirtFrontLower.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MonkArmature|Death
+      takeName: MonkArmature|Death
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monk
+        weight: 1
+      - path: MonkArmature
+        weight: 1
+      - path: MonkArmature/spine
+        weight: 1
+      - path: MonkArmature/spine/chest
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.L
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower/hoodLast
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L/skirtBackLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R/skirtBackLower.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L/skirtFrontLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R/skirtFrontLower.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MonkArmature|Idle
+      takeName: MonkArmature|Idle
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monk
+        weight: 1
+      - path: MonkArmature
+        weight: 1
+      - path: MonkArmature/spine
+        weight: 1
+      - path: MonkArmature/spine/chest
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.L
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower/hoodLast
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L/skirtBackLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R/skirtBackLower.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L/skirtFrontLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R/skirtFrontLower.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MonkArmature|JUSTFORTESTING
+      takeName: MonkArmature|JUSTFORTESTING
+      firstFrame: 0
+      lastFrame: 192
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monk
+        weight: 1
+      - path: MonkArmature
+        weight: 1
+      - path: MonkArmature/spine
+        weight: 1
+      - path: MonkArmature/spine/chest
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.L
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower/hoodLast
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L/skirtBackLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R/skirtBackLower.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L/skirtFrontLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R/skirtFrontLower.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MonkArmature|Move
+      takeName: MonkArmature|Move
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monk
+        weight: 1
+      - path: MonkArmature
+        weight: 1
+      - path: MonkArmature/spine
+        weight: 1
+      - path: MonkArmature/spine/chest
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.L
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower/hoodLast
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L/skirtBackLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R/skirtBackLower.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L/skirtFrontLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R/skirtFrontLower.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MonkArmature|TakeDamage
+      takeName: MonkArmature|TakeDamage
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .990639508
+        functionName: TakeDamageAnimationFinishedEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monk
+        weight: 1
+      - path: MonkArmature
+        weight: 1
+      - path: MonkArmature/spine
+        weight: 1
+      - path: MonkArmature/spine/chest
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.L
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower/hoodLast
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L/skirtBackLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R/skirtBackLower.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L/skirtFrontLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R/skirtFrontLower.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Monk|Idle
+      takeName: Monk|Idle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monk
+        weight: 1
+      - path: MonkArmature
+        weight: 1
+      - path: MonkArmature/spine
+        weight: 1
+      - path: MonkArmature/spine/chest
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: MonkArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.L
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/back.R
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: MonkArmature/spine/chest/neck/head/hoodUpper/hoodLower/hoodLast
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.L/skirtBackLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R
+        weight: 1
+      - path: MonkArmature/spine/skirtBack.R/skirtBackLower.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.L/skirtFrontLower.L
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R
+        weight: 1
+      - path: MonkArmature/spine/skirtFront.R/skirtFrontLower.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: spine
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

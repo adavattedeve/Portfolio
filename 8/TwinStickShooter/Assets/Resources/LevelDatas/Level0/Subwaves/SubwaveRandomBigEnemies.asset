@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b1f08bc83884e43b6e7e8eb4380b25, type: 3}
+  m_Name: SubwaveRandomBigEnemies
+  m_EditorClassIdentifier: 
+  baseMaxEnemies: -1
+  subWaveStartTime: 15
+  baseSpawnRate: 3.5
+  waveLengthInTime: 15
+  enemyPoolData:
+    prefab: {fileID: 1000012526755924, guid: daec313ef84adb64a991c5d2a72baf76, type: 2}
+    path: Prefabs/
+    buffer: 100
+  enemySpawnPointDatas:
+  - {fileID: 11400000, guid: 72607856206087d44bd81d1556718916, type: 2}
+  - {fileID: 11400000, guid: 09f786ce730c0f6419ca7d3c354aa32b, type: 2}
+  - {fileID: 11400000, guid: ab1c8762d6941af4c9a669add539493f, type: 2}
+  - {fileID: 11400000, guid: ea20f8ebc2eef4340b6670a3a0e2a735, type: 2}
+  - {fileID: 11400000, guid: 8fd4f4a9a5022ed4a9db090fbd4c0db3, type: 2}
+  spawnRate:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0.00110697
+      value: -0.0024339855
+      inSlope: 0.30613503
+      outSlope: 0.30613503
+      tangentMode: 10
+    - time: 0.59901595
+      value: 0.1806069
+      inSlope: 0.06760746
+      outSlope: 0.06760746
+      tangentMode: 10
+    - time: 0.9979845
+      value: 0.11241515
+      inSlope: -0.1709201
+      outSlope: -0.1709201
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0

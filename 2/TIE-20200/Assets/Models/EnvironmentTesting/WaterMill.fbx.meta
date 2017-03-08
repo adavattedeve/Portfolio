@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 4a346ec938b8fb247b7ff48b08b7f100
+timeCreated: 1449088835
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BaseWall
+    100002: BaseWall.001
+    100004: BaseWall.002
+    100006: BaseWall.003
+    100008: BaseWall.004
+    100010: BaseWall.005
+    100012: BaseWall.006
+    100014: BaseWall.007
+    100016: BaseWall.008
+    100018: BaseWall.009
+    100020: BaseWall.010
+    100022: Cube
+    100024: Cube.000
+    100026: Cube.006
+    100028: Cube.007
+    100030: Roof1
+    100032: Roof2
+    100034: Roof3
+    100036: //RootNode
+    100038: WaterMillWheel
+    100040: WaterMillWheel.001
+    400000: BaseWall
+    400002: BaseWall.001
+    400004: BaseWall.002
+    400006: BaseWall.003
+    400008: BaseWall.004
+    400010: BaseWall.005
+    400012: BaseWall.006
+    400014: BaseWall.007
+    400016: BaseWall.008
+    400018: BaseWall.009
+    400020: BaseWall.010
+    400022: Cube
+    400024: Cube.000
+    400026: Cube.006
+    400028: Cube.007
+    400030: Roof1
+    400032: Roof2
+    400034: Roof3
+    400036: //RootNode
+    400038: WaterMillWheel
+    400040: WaterMillWheel.001
+    2300000: BaseWall
+    2300002: BaseWall.001
+    2300004: BaseWall.002
+    2300006: BaseWall.003
+    2300008: BaseWall.004
+    2300010: BaseWall.005
+    2300012: BaseWall.006
+    2300014: BaseWall.007
+    2300016: BaseWall.008
+    2300018: BaseWall.009
+    2300020: BaseWall.010
+    2300022: Cube
+    2300024: Cube.000
+    2300026: Cube.006
+    2300028: Cube.007
+    2300030: Roof1
+    2300032: Roof2
+    2300034: Roof3
+    2300036: WaterMillWheel
+    2300038: WaterMillWheel.001
+    3300000: BaseWall
+    3300002: BaseWall.001
+    3300004: BaseWall.002
+    3300006: BaseWall.003
+    3300008: BaseWall.004
+    3300010: BaseWall.005
+    3300012: BaseWall.006
+    3300014: BaseWall.007
+    3300016: BaseWall.008
+    3300018: BaseWall.009
+    3300020: BaseWall.010
+    3300022: Cube
+    3300024: Cube.000
+    3300026: Cube.006
+    3300028: Cube.007
+    3300030: Roof1
+    3300032: Roof2
+    3300034: Roof3
+    3300036: WaterMillWheel
+    3300038: WaterMillWheel.001
+    4300000: Cube
+    4300002: BaseWall.010
+    4300004: BaseWall.009
+    4300006: BaseWall.008
+    4300008: BaseWall.007
+    4300010: BaseWall.006
+    4300012: BaseWall.005
+    4300014: BaseWall.004
+    4300016: BaseWall.003
+    4300018: BaseWall.002
+    4300020: BaseWall.001
+    4300022: Cube.000
+    4300024: Cube.007
+    4300026: Cube.006
+    4300028: BaseWall
+    4300030: Roof3
+    4300032: Roof2
+    4300034: Roof1
+    4300036: WaterMillWheel
+    4300038: WaterMillWheel.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

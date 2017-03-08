@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1DF9A737-C2E5-1798-3F31-FFBA7C416242}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.4.2f2</UnityVersion>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_2;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_2;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Alloy\Scripts\AlloyPropertyAttributes.cs" />
+    <Compile Include="Assets\Alloy\Scripts\AlloyUtils.cs" />
+    <Compile Include="Assets\Alloy\Scripts\AreaLight\AlloyAreaLight.cs" />
+    <Compile Include="Assets\Alloy\Scripts\DeferredRendererPlus\AlloyDeferredRendererPlus.cs" />
+    <Compile Include="Assets\Beautify\Demos\DemoSources\Scripts\CameraAnimator.cs" />
+    <Compile Include="Assets\Beautify\Demos\DemoSources\Scripts\Demo1.cs" />
+    <Compile Include="Assets\Beautify\Demos\DemoSources\Scripts\Demo2.cs" />
+    <Compile Include="Assets\Beautify\Demos\DemoSources\Scripts\FreeCameraMove.cs" />
+    <Compile Include="Assets\Beautify\Demos\DemoSources\Scripts\SphereAnimator.cs" />
+    <Compile Include="Assets\Beautify\Scripts\Beautify.cs" />
+    <Compile Include="Assets\Effects\BloodEffects\BloodDecal.cs" />
+    <Compile Include="Assets\Effects\BloodEffects\EnemyDamagedEffects.cs" />
+    <Compile Include="Assets\Effects\BloodEffects\PoolAfterTime.cs" />
+    <Compile Include="Assets\FXAA\Scripts\FXAA.cs" />
+    <Compile Include="Assets\FXAA\Scripts\FXAAPostEffectsBase.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Project\Scripts\FxCycle.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Project\Scripts\SoundFxArray.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Project\Scripts\TextFader.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundAutoRotate.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundCycleSnapshots.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundDragSplineObject.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundEventListener.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundInk.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundLogoExample.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundManipulatorEvents.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundManipulatorStrength.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundNextSceneWithEnter.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundOffsetSourceSplineTime.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundPingPongMove.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundProceduralMeshTarget.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundRotateWithKeys.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundRotationNormal.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundScenes.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundSineMoveObject.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundSwitchMultithreadingMethod.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Scene Scripts\PlaygroundTurbulenceOnGameObjects.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\AddRemoveManipulatorsInRadius.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\CircleEmit.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\EmitAtMousePosition.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\EmitByAmountC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\EmitDuringSpecifiedTime.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\EmitFromTransformsC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\EmitOnOffByDistanceC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\EmitOnOffOnClickC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\EmitOnOffOnMousePressedC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\EmitOnTranslation.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\EmitWhenMoving.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\EnableDisableByDistanceC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\EnableDisableOnClickC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\EventListenerEnableSystems.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\GlobalEventListeners.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\KillParticleWithinEventRangeC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\ManipulatorContainsParticlesC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\MultiEmitOnEvent.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\PaintAtMousePositionC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\ParticleEventListenerC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\ParticleMaskingPercentage.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\ParticleParabola.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\ParticlePickupWithGlobalManipulator.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\ParticlePickupWithLocalManipulator.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\ParticleSystemScaler.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\ParticleSystemsSequence.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\PauseCalculationByDistanceAngleC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\PlaygroundFollow.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\ProtectParticlesFromManipulator.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\ProtectParticlesFromManipulatorById.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\RelationPositionTransform.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\SetSkinnedMeshUpdateRate.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\SnapshotToLocalPosition.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\SpawnPrefabOnClickC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\SwitchCachedParticleSystemC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\SwitchCachedWorldObjectsC.cs" />
+    <Compile Include="Assets\Particle Playground\Examples\Example Scripts\Simple Scripts\SwitchMultithreading.cs" />
+    <Compile Include="Assets\Particle Playground\Playground Assets\Scripts\PlaygroundSineOverflow.cs" />
+    <Compile Include="Assets\Particle Playground\Playground Assets\Scripts\PlaygroundSineRotation.cs" />
+    <Compile Include="Assets\Particle Playground\Scripts\Playground Splines\PlaygroundSpline.cs" />
+    <Compile Include="Assets\Particle Playground\Scripts\PlaygroundC.cs" />
+    <Compile Include="Assets\Particle Playground\Scripts\PlaygroundParticlesC.cs" />
+    <Compile Include="Assets\Particle Playground\Scripts\Presets\PlaygroundBrushPresetC.cs" />
+    <Compile Include="Assets\Particle Playground\Scripts\Presets\PlaygroundPresetCircleShotC.cs" />
+    <Compile Include="Assets\Particle Playground\Scripts\Presets\PlaygroundPresetLaserC.cs" />
+    <Compile Include="Assets\PlayerBuffTest.cs" />
+    <Compile Include="Assets\Scripts\AnimatorDisableActionInput.cs" />
+    <Compile Include="Assets\Scripts\AnimatorEnemyAttack.cs" />
+    <Compile Include="Assets\Scripts\AnimatorEnemyEnableControls.cs" />
+    <Compile Include="Assets\Scripts\AnimatorKnockback.cs" />
+    <Compile Include="Assets\Scripts\AnimatorReload.cs" />
+    <Compile Include="Assets\Scripts\BloodSplatCreator.cs" />
+    <Compile Include="Assets\Scripts\BodyPartCollisionEffects.cs" />
+    <Compile Include="Assets\Scripts\CharacterStats.cs" />
+    <Compile Include="Assets\Scripts\EnemyAttacking.cs" />
+    <Compile Include="Assets\Scripts\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\EnemySpawner.cs" />
+    <Compile Include="Assets\Scripts\EnemyStats.cs" />
+    <Compile Include="Assets\Scripts\EnemyWaves\DrawGizmoSphere.cs" />
+    <Compile Include="Assets\Scripts\EnemyWaves\EnemySubWave.cs" />
+    <Compile Include="Assets\Scripts\EnemyWaves\EnemyWave.cs" />
+    <Compile Include="Assets\Scripts\EnemyWaves\EnemyWaveManager.cs" />
+    <Compile Include="Assets\Scripts\EnemyWaves\LocationsData.cs" />
+    <Compile Include="Assets\Scripts\EnemyWaves\LocationsDataEditor.cs" />
+    <Compile Include="Assets\Scripts\EnemyWaves\LocationsDataManager.cs" />
+    <Compile Include="Assets\Scripts\FollowTarget.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\AnimationScripts\AnimatorAdjustSpeedByStat.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\AnimationScripts\AnimatorShoot.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\DamageInfo.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Gun.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\GunStats.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\IBulletModifier.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\IDamageModifier.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\IOnHitModifier.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\IStatModifier.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\IUpdateable.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Shotgun.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\WeaponComponent.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\WeaponComponents\ProjectileSplitter.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\WeaponController.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\ICharacterControl.cs" />
+    <Compile Include="Assets\Scripts\MovementAnimation.cs" />
+    <Compile Include="Assets\Scripts\ObjectShaker.cs" />
+    <Compile Include="Assets\Scripts\PlayerStats.cs" />
+    <Compile Include="Assets\Scripts\PlayerVisualEffects.cs" />
+    <Compile Include="Assets\Scripts\PrefabPaths.cs" />
+    <Compile Include="Assets\Scripts\ResourcePaths.cs" />
+    <Compile Include="Assets\Scripts\Stability.cs" />
+    <Compile Include="Assets\Scripts\Stat.cs" />
+    <Compile Include="Assets\Scripts\StatChange.cs" />
+    <Compile Include="Assets\Scripts\Utility\AngleUtility.cs" />
+    <Compile Include="Assets\Scripts\Utility\CreateNewSubwave.cs" />
+    <Compile Include="Assets\Scripts\Utility\CreateNewWave.cs" />
+    <Compile Include="Assets\Scripts\Utility\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Utility\ObjectToBePooled.cs" />
+    <Compile Include="Assets\Scripts\Utility\SciptableObjectUtility.cs" />
+    <Compile Include="Assets\Sonic Ether\Natural Bloom\Demo Scene\Scripts\SENBDLCameraAnimation.cs" />
+    <Compile Include="Assets\Sonic Ether\Natural Bloom\Demo Scene\Scripts\SENBDLGlobal.cs" />
+    <Compile Include="Assets\Sonic Ether\Natural Bloom\Demo Scene\Scripts\SENBDLGlowingOrbitingCube.cs" />
+    <Compile Include="Assets\Sonic Ether\Natural Bloom\Demo Scene\Scripts\SENBDLMainCube.cs" />
+    <Compile Include="Assets\Sonic Ether\Natural Bloom\Demo Scene\Scripts\SENBDLOrbitingCube.cs" />
+    <Compile Include="Assets\Sonic Ether\Natural Bloom\Scripts\SENaturalBloomAndDirtyLens.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Alloy\CHANGELOG.txt" />
+    <None Include="Assets\Alloy\EXTENSIONS.txt" />
+    <None Include="Assets\Alloy\LICENSES.txt" />
+    <None Include="Assets\Alloy\README.txt" />
+    <None Include="Assets\Alloy\REQUIRED ACTIONS.txt" />
+    <None Include="Assets\Alloy\Scripts\DeferredRendererPlus\Shaders\BlurNormals.shader" />
+    <None Include="Assets\Alloy\Scripts\DeferredRendererPlus\Shaders\TransmissionBlit.shader" />
+    <None Include="Assets\Alloy\Scripts\Editor\MaterialMigratorWarning.txt" />
+    <None Include="Assets\Alloy\Scripts\MaterialInspectors\Shaders\AlloyVisualize.shader" />
+    <None Include="Assets\Alloy\Scripts\MaterialMapChannelPacker\Shaders\AlloyNormalBlit.shader" />
+    <None Include="Assets\Alloy\Scripts\MaterialMapChannelPacker\Shaders\AlloyPassthroughBlit.shader" />
+    <None Include="Assets\Alloy\Shaders\Alloy Deferred Reflections.shader" />
+    <None Include="Assets\Alloy\Shaders\Alloy Deferred Shading.shader" />
+    <None Include="Assets\Alloy\Shaders\Alloy Deferred Skin.shader" />
+    <None Include="Assets\Alloy\Shaders\Alloy Deferred Transmission.shader" />
+    <None Include="Assets\Alloy\Shaders\Alloy Deferred UBER.shader" />
+    <None Include="Assets\Alloy\Shaders\Config.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\CarPaint.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\Core.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\DecalAdditive.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\DecalAlpha.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\DecalAmbient.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\DecalMultiplicative.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\DirectionalBlend.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\Eye.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\Hair.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\OrientedBlend.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\OrientedCore.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\Skin.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\SpeedTree.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\SpeedTreeBillboard.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\Terrain.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\Transition.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\Transmission.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\TriPlanar.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\Unlit.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\VertexBlend.cginc" />
+    <None Include="Assets\Alloy\Shaders\Definitions\WeightedBlend.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\AO2.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\CarPaint.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\Decal.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\Detail.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\DirectionalBlend.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\Dissolve.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\Emission.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\Emission2.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\Eye.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\MainTextures.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\OrientedTextures.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\Parallax.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\Puddles.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\Rim.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\Rim2.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\SecondaryTextures.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\SpeedTree.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\TeamColor.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\Terrain.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\TransitionBlend.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\Transmission.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\TriPlanar.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\VertexBlend.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\WeightedBlend.cginc" />
+    <None Include="Assets\Alloy\Shaders\Features\Wetness.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Brdf.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Decal.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Deferred.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Direct.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Feature.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\FeatureImpl.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Indirect.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Keywords.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Lighting.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Model.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\ModelImpl.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Particle.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Pass.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Semantics.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Splat.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\SplatImpl.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Surface.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\SurfaceImpl.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Tessellation.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Unity.cginc" />
+    <None Include="Assets\Alloy\Shaders\Framework\Utility.cginc" />
+    <None Include="Assets\Alloy\Shaders\Lighting\Hair.cginc" />
+    <None Include="Assets\Alloy\Shaders\Lighting\Skin.cginc" />
+    <None Include="Assets\Alloy\Shaders\Lighting\Standard.cginc" />
+    <None Include="Assets\Alloy\Shaders\Lighting\Transmission.cginc" />
+    <None Include="Assets\Alloy\Shaders\Models\DecalAdditive.cginc" />
+    <None Include="Assets\Alloy\Shaders\Models\DecalAlpha.cginc" />
+    <None Include="Assets\Alloy\Shaders\Models\DecalAmbient.cginc" />
+    <None Include="Assets\Alloy\Shaders\Models\DecalMultiplicative.cginc" />
+    <None Include="Assets\Alloy\Shaders\Models\SpeedTree.cginc" />
+    <None Include="Assets\Alloy\Shaders\Models\SpeedTreeBillboard.cginc" />
+    <None Include="Assets\Alloy\Shaders\Models\Standard.cginc" />
+    <None Include="Assets\Alloy\Shaders\Models\Terrain.cginc" />
+    <None Include="Assets\Alloy\Shaders\Passes\Deferred.cginc" />
+    <None Include="Assets\Alloy\Shaders\Passes\Distort.cginc" />
+    <None Include="Assets\Alloy\Shaders\Passes\ForwardAdd.cginc" />
+    <None Include="Assets\Alloy\Shaders\Passes\ForwardBase.cginc" />
+    <None Include="Assets\Alloy\Shaders\Passes\Meta.cginc" />
+    <None Include="Assets\Alloy\Shaders\Passes\Shadow.cginc" />
+    <None Include="Assets\Alloy\Shaders\SM3\Core\Core.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Core\Prototyping.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Decal\Additive.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Decal\Alpha.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Decal\Ambient.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Decal\Cutout.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Decal\Multiplicative.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Human\Eye.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Human\Hair HighQuality OneSided.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Human\Hair HighQuality TwoSided.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Human\Hair LowQuality OneSided.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Human\Hair LowQuality TwoSided.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Human\Skin Forward.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Human\Skin.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Nature\SpeedTree Forward.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Nature\SpeedTree.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Nature\SpeedTreeBillboard.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Nature\Terrain 4Splat.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Nature\Terrain Distant.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Nature\Terrain nSplat AddPass.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Nature\Terrain nSplat FirstPass.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Specialist\Car Paint.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Specialist\Directional Blend.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Specialist\Glass HighQuality.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Specialist\Glass LowQuality.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Specialist\Oriented Blend.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Specialist\Oriented Core.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Specialist\Transmission OneSided Forward.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Specialist\Transmission OneSided.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Specialist\Transmission TwoSided Forward.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Specialist\Transmission TwoSided.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Specialist\TriPlanar.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Specialist\Vertex Blend.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\Specialist\Weighted Blend.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\VisualEffects\Particle Add.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\VisualEffects\Particle AddMultiply.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\VisualEffects\Particle AddSmooth.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\VisualEffects\Particle Alpha Blend.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\VisualEffects\Particle Blend.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\VisualEffects\Particle Multiply.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\VisualEffects\Particle MultiplyDouble.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\VisualEffects\Particle Premultiply Blend.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\VisualEffects\Particle VertexLit Blended.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\VisualEffects\Transition.shader" />
+    <None Include="Assets\Alloy\Shaders\SM3\VisualEffects\Unlit.shader" />
+    <None Include="Assets\Alloy\Shaders\Unity\AutoLight.cginc" />
+    <None Include="Assets\Alloy\Shaders\Unity\UnityCG.cginc" />
+    <None Include="Assets\Alloy\Shaders\Unity\UnityPBSLighting.cginc" />
+    <None Include="Assets\Beautify\Demos\DemoSources\Skybox\README_SKYBOX.txt" />
+    <None Include="Assets\Beautify\README.txt" />
+    <None Include="Assets\Beautify\Resources\Shaders\Beautify.cginc" />
+    <None Include="Assets\Beautify\Resources\Shaders\Beautify.shader" />
+    <None Include="Assets\Beautify\Resources\Shaders\BeautifyDoF.cginc" />
+    <None Include="Assets\Beautify\Resources\Shaders\BeautifyLum.cginc" />
+    <None Include="Assets\Beautify\Resources\Shaders\BeautifyMobile.cginc" />
+    <None Include="Assets\Beautify\Resources\Shaders\BeautifyMobile.shader" />
+    <None Include="Assets\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
+    <None Include="Assets\Day-Night Skyboxes\readme.txt" />
+    <None Include="Assets\Effects\BloodEffects\Splatter.shader" />
+    <None Include="Assets\FXAA\Shaders\Fxaa3.shader" />
+    <None Include="Assets\FXAA\Shaders\Fxaa3_9.cginc" />
+    <None Include="Assets\Particle Playground\Examples\Example Project\-Readme.txt" />
+    <None Include="Assets\Particle Playground\Graphics\Shaders\Alpha Blended Texture With Color Tint.shader" />
+    <None Include="Assets\Particle Playground\Graphics\Shaders\Alpha Blended Texture.shader" />
+    <None Include="Assets\Particle Playground\Graphics\Shaders\Vertex Color.shader" />
+    <None Include="Assets\Particle Playground\Graphics\Shaders\VertexLit Color.shader" />
+    <None Include="Assets\Particle Playground\Graphics\Shaders\VertexLit Texture.shader" />
+    <None Include="Assets\Sonic Ether\Natural Bloom\Shaders\SEEmissiveTextured.shader" />
+    <None Include="Assets\Sonic Ether\Natural Bloom\Shaders\SENaturalBloomAndDirtyLens.shader" />
+    <None Include="Assets\Sonic Ether\Natural Bloom\Shaders\SEParticlesAdditive.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

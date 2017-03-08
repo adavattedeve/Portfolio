@@ -1,0 +1,8 @@
+ATTENTION: This version of Alloy adds the ability to disable all normal maps on a material for simple/background assets. This required adding a flag that has set normal maps to 'off' for all existing materials.
+
+Please run the "Material Migrator" tool to fix your project's existing Alloy materials.
+
+1.) Ensure that your project is saved and backed up.
+2.) Go to the menu Window->Alloy->Material Migrator.
+3.) After it finishes, hit Ctrl+S.
+4.) Close and reopen Unity.

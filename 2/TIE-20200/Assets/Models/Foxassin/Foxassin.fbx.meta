@@ -1,0 +1,1015 @@
+fileFormatVersion: 2
+guid: c151a143b2ee1c1448e1263ea952b6b6
+timeCreated: 1446795614
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bolt.001
+    100002: chest
+    100004: clavicle.L
+    100006: clavicle.R
+    100008: CrossBow
+    100010: fingers.L
+    100012: fingers.R
+    100014: foot.L
+    100016: foot.R
+    100018: FootRoll.L
+    100020: FootRoll.R
+    100022: forearm.L
+    100024: forearm.R
+    100026: //RootNode
+    100028: Foxassin
+    100030: FoxassinArmature
+    100032: hand.L
+    100034: hand.R
+    100036: head
+    100038: hoodLower
+    100040: hoodUpper
+    100042: Leg IK.L
+    100044: Leg IK.R
+    100046: LegControl.L
+    100048: LegControl.R
+    100050: LegPoleTarget.L
+    100052: LegPoleTarget.R
+    100054: neck
+    100056: shin.L
+    100058: shin.R
+    100060: skirtBack.L
+    100062: skirtBack.R
+    100064: skirtFront.L
+    100066: skirtFront.R
+    100068: spine
+    100070: tail0
+    100072: tail1
+    100074: tail2
+    100076: thigh.L
+    100078: thigh.R
+    100080: toe.L
+    100082: toe.R
+    100084: ToesControl.L
+    100086: ToesControl.R
+    100088: upper_arm.L
+    100090: upper_arm.R
+    400000: Bolt.001
+    400002: chest
+    400004: clavicle.L
+    400006: clavicle.R
+    400008: CrossBow
+    400010: fingers.L
+    400012: fingers.R
+    400014: foot.L
+    400016: foot.R
+    400018: FootRoll.L
+    400020: FootRoll.R
+    400022: forearm.L
+    400024: forearm.R
+    400026: //RootNode
+    400028: Foxassin
+    400030: FoxassinArmature
+    400032: hand.L
+    400034: hand.R
+    400036: head
+    400038: hoodLower
+    400040: hoodUpper
+    400042: Leg IK.L
+    400044: Leg IK.R
+    400046: LegControl.L
+    400048: LegControl.R
+    400050: LegPoleTarget.L
+    400052: LegPoleTarget.R
+    400054: neck
+    400056: shin.L
+    400058: shin.R
+    400060: skirtBack.L
+    400062: skirtBack.R
+    400064: skirtFront.L
+    400066: skirtFront.R
+    400068: spine
+    400070: tail0
+    400072: tail1
+    400074: tail2
+    400076: thigh.L
+    400078: thigh.R
+    400080: toe.L
+    400082: toe.R
+    400084: ToesControl.L
+    400086: ToesControl.R
+    400088: upper_arm.L
+    400090: upper_arm.R
+    4300000: CrossBow
+    4300002: Bolt.001
+    4300004: Foxassin
+    7400000: FoxassinArmature|Attack
+    7400002: FoxassinArmature|Death
+    7400004: FoxassinArmature|Idle
+    7400006: FoxassinArmature|JUSTFORTESTING
+    7400008: FoxassinArmature|Move
+    7400010: FoxassinArmature|TakeDamage
+    7400012: Foxassin|Move
+    9500000: //RootNode
+    13700000: Bolt.001
+    13700002: CrossBow
+    13700004: Foxassin
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FoxassinArmature|Attack
+      takeName: FoxassinArmature|Attack
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: -40
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .669459283
+        functionName: AttackAnimationDealDamageEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bolt.001
+        weight: 1
+      - path: CrossBow
+        weight: 1
+      - path: Foxassin
+        weight: 1
+      - path: FoxassinArmature
+        weight: 1
+      - path: FoxassinArmature/LegControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.L
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.R
+        weight: 1
+      - path: FoxassinArmature/spine
+        weight: 1
+      - path: FoxassinArmature/spine/chest
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.R
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.R
+        weight: 1
+      - path: FoxassinArmature/spine/tail0
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1/tail2
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FoxassinArmature|Death
+      takeName: FoxassinArmature|Death
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: -40
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bolt.001
+        weight: 1
+      - path: CrossBow
+        weight: 1
+      - path: Foxassin
+        weight: 1
+      - path: FoxassinArmature
+        weight: 1
+      - path: FoxassinArmature/LegControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.L
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.R
+        weight: 1
+      - path: FoxassinArmature/spine
+        weight: 1
+      - path: FoxassinArmature/spine/chest
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.R
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.R
+        weight: 1
+      - path: FoxassinArmature/spine/tail0
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1/tail2
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FoxassinArmature|Idle
+      takeName: FoxassinArmature|Idle
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bolt.001
+        weight: 1
+      - path: CrossBow
+        weight: 1
+      - path: Foxassin
+        weight: 1
+      - path: FoxassinArmature
+        weight: 1
+      - path: FoxassinArmature/LegControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.L
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.R
+        weight: 1
+      - path: FoxassinArmature/spine
+        weight: 1
+      - path: FoxassinArmature/spine/chest
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.R
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.R
+        weight: 1
+      - path: FoxassinArmature/spine/tail0
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1/tail2
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FoxassinArmature|JUSTFORTESTING
+      takeName: FoxassinArmature|JUSTFORTESTING
+      firstFrame: 0
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: -40
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bolt.001
+        weight: 1
+      - path: CrossBow
+        weight: 1
+      - path: Foxassin
+        weight: 1
+      - path: FoxassinArmature
+        weight: 1
+      - path: FoxassinArmature/LegControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.L
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.R
+        weight: 1
+      - path: FoxassinArmature/spine
+        weight: 1
+      - path: FoxassinArmature/spine/chest
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.R
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.R
+        weight: 1
+      - path: FoxassinArmature/spine/tail0
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1/tail2
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FoxassinArmature|Move
+      takeName: FoxassinArmature|Move
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bolt.001
+        weight: 1
+      - path: CrossBow
+        weight: 1
+      - path: Foxassin
+        weight: 1
+      - path: FoxassinArmature
+        weight: 1
+      - path: FoxassinArmature/LegControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.L
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.R
+        weight: 1
+      - path: FoxassinArmature/spine
+        weight: 1
+      - path: FoxassinArmature/spine/chest
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.R
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.R
+        weight: 1
+      - path: FoxassinArmature/spine/tail0
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1/tail2
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FoxassinArmature|TakeDamage
+      takeName: FoxassinArmature|TakeDamage
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: -40
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .993650556
+        functionName: TakeDamageAnimationFinishedEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bolt.001
+        weight: 1
+      - path: CrossBow
+        weight: 1
+      - path: Foxassin
+        weight: 1
+      - path: FoxassinArmature
+        weight: 1
+      - path: FoxassinArmature/LegControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.L
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.R
+        weight: 1
+      - path: FoxassinArmature/spine
+        weight: 1
+      - path: FoxassinArmature/spine/chest
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.R
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.R
+        weight: 1
+      - path: FoxassinArmature/spine/tail0
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1/tail2
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Foxassin|Move
+      takeName: Foxassin|Move
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bolt.001
+        weight: 1
+      - path: CrossBow
+        weight: 1
+      - path: Foxassin
+        weight: 1
+      - path: FoxassinArmature
+        weight: 1
+      - path: FoxassinArmature/LegControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: FoxassinArmature/LegControl.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: FoxassinArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.L
+        weight: 1
+      - path: FoxassinArmature/LegPoleTarget.R
+        weight: 1
+      - path: FoxassinArmature/spine
+        weight: 1
+      - path: FoxassinArmature/spine/chest
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper
+        weight: 1
+      - path: FoxassinArmature/spine/chest/neck/head/hoodUpper/hoodLower
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtBack.R
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.L
+        weight: 1
+      - path: FoxassinArmature/spine/skirtFront.R
+        weight: 1
+      - path: FoxassinArmature/spine/tail0
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1
+        weight: 1
+      - path: FoxassinArmature/spine/tail0/tail1/tail2
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: FoxassinArmature/spine/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: spine
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

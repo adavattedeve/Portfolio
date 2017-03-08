@@ -1,0 +1,1336 @@
+fileFormatVersion: 2
+guid: 6f334cbc41974104084cd87a56b1404e
+timeCreated: 1446795581
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BlackDragon
+    100004: BlackDragonArmature
+    100006: chest
+    100008: foot.L
+    100010: foot.R
+    100012: footBack.L
+    100014: footBack.R
+    100016: FootRoll.L
+    100018: FootRoll.R
+    100020: FootRollBack.L
+    100022: FootRollBack.R
+    100024: forearm.L
+    100026: forearm.R
+    100028: head
+    100030: hips
+    100032: jaw
+    100034: Leg IK.L
+    100036: Leg IK.R
+    100038: Leg IKBack.L
+    100040: Leg IKBack.R
+    100042: LegControl.L
+    100044: LegControl.R
+    100046: LegControlBack.L
+    100048: LegControlBack.R
+    100050: LegPoleTarget.L
+    100052: LegPoleTarget.R
+    100054: LegPoleTargetBack.L
+    100056: LegPoleTargetBack.R
+    100058: lowerBodyBack
+    100060: lowerBodyFront
+    100062: neck
+    100064: shin.L
+    100066: shin.R
+    100068: shinBack.L
+    100070: shinBack.R
+    100072: spine
+    100074: tail0
+    100076: tail1
+    100078: tail3
+    100080: thigh.L
+    100082: thigh.R
+    100084: thighBack.L
+    100086: thighBack.R
+    100088: toe.L
+    100090: toe.R
+    100092: toeBack.L
+    100094: toeBack.R
+    100096: ToesControl.L
+    100098: ToesControl.R
+    100100: ToesControlBack.L
+    100102: ToesControlBack.R
+    100104: upper_arm.L
+    100106: upper_arm.R
+    400000: BlackDragon
+    400002: //RootNode
+    400004: BlackDragonArmature
+    400006: chest
+    400008: foot.L
+    400010: foot.R
+    400012: footBack.L
+    400014: footBack.R
+    400016: FootRoll.L
+    400018: FootRoll.R
+    400020: FootRollBack.L
+    400022: FootRollBack.R
+    400024: forearm.L
+    400026: forearm.R
+    400028: head
+    400030: hips
+    400032: jaw
+    400034: Leg IK.L
+    400036: Leg IK.R
+    400038: Leg IKBack.L
+    400040: Leg IKBack.R
+    400042: LegControl.L
+    400044: LegControl.R
+    400046: LegControlBack.L
+    400048: LegControlBack.R
+    400050: LegPoleTarget.L
+    400052: LegPoleTarget.R
+    400054: LegPoleTargetBack.L
+    400056: LegPoleTargetBack.R
+    400058: lowerBodyBack
+    400060: lowerBodyFront
+    400062: neck
+    400064: shin.L
+    400066: shin.R
+    400068: shinBack.L
+    400070: shinBack.R
+    400072: spine
+    400074: tail0
+    400076: tail1
+    400078: tail3
+    400080: thigh.L
+    400082: thigh.R
+    400084: thighBack.L
+    400086: thighBack.R
+    400088: toe.L
+    400090: toe.R
+    400092: toeBack.L
+    400094: toeBack.R
+    400096: ToesControl.L
+    400098: ToesControl.R
+    400100: ToesControlBack.L
+    400102: ToesControlBack.R
+    400104: upper_arm.L
+    400106: upper_arm.R
+    4300000: BlackDragon
+    7400000: BlackDragonArmature|Attack
+    7400002: BlackDragonArmature|Death
+    7400004: BlackDragonArmature|FlyEnd
+    7400006: BlackDragonArmature|FlyStart
+    7400008: BlackDragonArmature|Idle
+    7400010: BlackDragonArmature|JUSTFORTESTING
+    7400012: BlackDragonArmature|Move
+    7400014: BlackDragonArmature|TakeDamage
+    9500000: //RootNode
+    13700000: BlackDragon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BlackDragonArmature|Attack
+      takeName: BlackDragonArmature|Attack
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .623410106
+        functionName: AttackAnimationDealDamageEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackDragon
+        weight: 1
+      - path: BlackDragonArmature
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/jaw
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L/forearm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R/forearm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BlackDragonArmature|Death
+      takeName: BlackDragonArmature|Death
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackDragon
+        weight: 1
+      - path: BlackDragonArmature
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/jaw
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L/forearm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R/forearm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BlackDragonArmature|FlyEnd
+      takeName: BlackDragonArmature|FlyEnd
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Speed
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .0428571366
+            value: -1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .257142812
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackDragon
+        weight: 1
+      - path: BlackDragonArmature
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/jaw
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L/forearm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R/forearm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BlackDragonArmature|FlyStart
+      takeName: BlackDragonArmature|FlyStart
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Speed
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .435000002
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .464711785
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .647418022
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .682664931
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .995565414
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackDragon
+        weight: 1
+      - path: BlackDragonArmature
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/jaw
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L/forearm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R/forearm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BlackDragonArmature|Idle
+      takeName: BlackDragonArmature|Idle
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackDragon
+        weight: 1
+      - path: BlackDragonArmature
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/jaw
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L/forearm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R/forearm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BlackDragonArmature|JUSTFORTESTING
+      takeName: BlackDragonArmature|JUSTFORTESTING
+      firstFrame: 0
+      lastFrame: 292
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackDragon
+        weight: 1
+      - path: BlackDragonArmature
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/jaw
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L/forearm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R/forearm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BlackDragonArmature|Move
+      takeName: BlackDragonArmature|Move
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackDragon
+        weight: 1
+      - path: BlackDragonArmature
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/jaw
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L/forearm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R/forearm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BlackDragonArmature|TakeDamage
+      takeName: BlackDragonArmature|TakeDamage
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .748740315
+        functionName: TakeDamageAnimationFinishedEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BlackDragon
+        weight: 1
+      - path: BlackDragonArmature
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BlackDragonArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTarget.R
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BlackDragonArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/jaw
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.L/forearm.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/lowerBodyFront/upper_arm.R/forearm.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BlackDragonArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: lowerBodyBack
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

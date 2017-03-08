@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="D:\atte\Unitymiehet\unitymiehet.git\marjametsa\Assets\Scripts\panssariClass.cs">
+    <Files>
+      <File FileName="D:\atte\Unitymiehet\unitymiehet.git\marjametsa\Assets\Scripts\menuScript.cs" Line="1" Column="1" />
+      <File FileName="D:\atte\Unitymiehet\unitymiehet.git\marjametsa\Assets\Scripts\Singleton.cs" Line="1" Column="1" />
+      <File FileName="D:\atte\Unitymiehet\unitymiehet.git\marjametsa\Assets\Scripts\Joukkue.cs" Line="100" Column="33" />
+      <File FileName="D:\atte\Unitymiehet\unitymiehet.git\marjametsa\Assets\Scripts\kauppaClass.cs" Line="45" Column="1" />
+      <File FileName="D:\atte\Unitymiehet\unitymiehet.git\marjametsa\Assets\Scripts\panssariClass.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

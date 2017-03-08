@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: ee531912d930bff4fa906700ff83000e
+timeCreated: 1447874397
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AbilitySlot
+    21300002: Blessing
+    21300004: Haste
+    21300006: Teleport
+    21300008: Earthquake
+    21300010: Magic Blast
+    21300012: Mass Blessing
+    21300014: Mass Haste
+    21300016: Fire Explosion
+    21300018: Plague
+    21300020: Confusion
+    21300022: Slow
+    21300024: Mindles Agression
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AbilitySlot
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 794
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blessing
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 791
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Haste
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 788
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Teleport
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 793
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Earthquake
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 540
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Magic Blast
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 535
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mass Blessing
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 539
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mass Haste
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 535
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fire Explosion
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 287
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Plague
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 287
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Confusion
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 285
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Slow
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 287
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mindles Agression
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 35
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

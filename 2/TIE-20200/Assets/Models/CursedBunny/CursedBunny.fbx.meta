@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: cf665208c6280f545a854962ec78f8a2
+timeCreated: 1446795600
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: chest
+    100002: clavicle.L
+    100004: clavicle.R
+    100006: CursedBunny
+    100008: //RootNode
+    100010: CursedBunnyArmature
+    100012: fingers.L
+    100014: fingers.R
+    100016: foot.L
+    100018: foot.R
+    100020: FootRoll.L
+    100022: FootRoll.R
+    100024: forearm.L
+    100026: forearm.R
+    100028: hand.L
+    100030: hand.R
+    100032: head
+    100034: hips
+    100036: Leg IK.L
+    100038: Leg IK.R
+    100040: LegControl.L
+    100042: LegControl.R
+    100044: LegPoleTarget.L
+    100046: LegPoleTarget.R
+    100048: neck
+    100050: shin.L
+    100052: shin.R
+    100054: spine
+    100056: thigh.L
+    100058: thigh.R
+    100060: toe.L
+    100062: toe.R
+    100064: ToesControl.L
+    100066: ToesControl.R
+    100068: upper_arm.L
+    100070: upper_arm.R
+    400000: chest
+    400002: clavicle.L
+    400004: clavicle.R
+    400006: CursedBunny
+    400008: //RootNode
+    400010: CursedBunnyArmature
+    400012: fingers.L
+    400014: fingers.R
+    400016: foot.L
+    400018: foot.R
+    400020: FootRoll.L
+    400022: FootRoll.R
+    400024: forearm.L
+    400026: forearm.R
+    400028: hand.L
+    400030: hand.R
+    400032: head
+    400034: hips
+    400036: Leg IK.L
+    400038: Leg IK.R
+    400040: LegControl.L
+    400042: LegControl.R
+    400044: LegPoleTarget.L
+    400046: LegPoleTarget.R
+    400048: neck
+    400050: shin.L
+    400052: shin.R
+    400054: spine
+    400056: thigh.L
+    400058: thigh.R
+    400060: toe.L
+    400062: toe.R
+    400064: ToesControl.L
+    400066: ToesControl.R
+    400068: upper_arm.L
+    400070: upper_arm.R
+    4300000: CursedBunny
+    7400000: CursedBunnyArmature|Attack
+    7400002: CursedBunnyArmature|Death
+    7400004: CursedBunnyArmature|Idle
+    7400006: CursedBunnyArmature|JUSTFORTESTING
+    7400008: CursedBunnyArmature|Move
+    7400010: CursedBunnyArmature|TakeDamage
+    9500000: //RootNode
+    13700000: CursedBunny
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CursedBunnyArmature|Attack
+      takeName: CursedBunnyArmature|Attack
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .382326514
+        functionName: AttackAnimationDealDamageEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CursedBunny
+        weight: 1
+      - path: CursedBunnyArmature
+        weight: 1
+      - path: CursedBunnyArmature/hips
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/neck
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/neck/head
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: CursedBunnyArmature/LegPoleTarget.L
+        weight: 1
+      - path: CursedBunnyArmature/LegPoleTarget.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CursedBunnyArmature|Death
+      takeName: CursedBunnyArmature|Death
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CursedBunny
+        weight: 1
+      - path: CursedBunnyArmature
+        weight: 1
+      - path: CursedBunnyArmature/hips
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/neck
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/neck/head
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: CursedBunnyArmature/LegPoleTarget.L
+        weight: 1
+      - path: CursedBunnyArmature/LegPoleTarget.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CursedBunnyArmature|Idle
+      takeName: CursedBunnyArmature|Idle
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CursedBunny
+        weight: 1
+      - path: CursedBunnyArmature
+        weight: 1
+      - path: CursedBunnyArmature/hips
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/neck
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/neck/head
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: CursedBunnyArmature/LegPoleTarget.L
+        weight: 1
+      - path: CursedBunnyArmature/LegPoleTarget.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CursedBunnyArmature|JUSTFORTESTING
+      takeName: CursedBunnyArmature|JUSTFORTESTING
+      firstFrame: 0
+      lastFrame: 192
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CursedBunny
+        weight: 1
+      - path: CursedBunnyArmature
+        weight: 1
+      - path: CursedBunnyArmature/hips
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/neck
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/neck/head
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: CursedBunnyArmature/LegPoleTarget.L
+        weight: 1
+      - path: CursedBunnyArmature/LegPoleTarget.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CursedBunnyArmature|Move
+      takeName: CursedBunnyArmature|Move
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CursedBunny
+        weight: 1
+      - path: CursedBunnyArmature
+        weight: 1
+      - path: CursedBunnyArmature/hips
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/neck
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/neck/head
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: CursedBunnyArmature/LegPoleTarget.L
+        weight: 1
+      - path: CursedBunnyArmature/LegPoleTarget.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CursedBunnyArmature|TakeDamage
+      takeName: CursedBunnyArmature|TakeDamage
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .78038168
+        functionName: TakeDamageAnimationFinishedEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CursedBunny
+        weight: 1
+      - path: CursedBunnyArmature
+        weight: 1
+      - path: CursedBunnyArmature/hips
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/neck
+        weight: 1
+      - path: CursedBunnyArmature/hips/spine/chest/neck/head
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: CursedBunnyArmature/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: CursedBunnyArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: CursedBunnyArmature/LegPoleTarget.L
+        weight: 1
+      - path: CursedBunnyArmature/LegPoleTarget.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: hips
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

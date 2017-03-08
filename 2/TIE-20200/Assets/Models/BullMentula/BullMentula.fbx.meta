@@ -1,0 +1,1074 @@
+fileFormatVersion: 2
+guid: 1f811b523f3f5ac48ada16417f347b2c
+timeCreated: 1446795591
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BullMentula
+    100004: BulltaurArmature
+    100006: chest
+    100008: clavicle.L
+    100010: clavicle.R
+    100012: fingers.L
+    100014: fingers.R
+    100016: foot.L
+    100018: foot.R
+    100020: footBack.L
+    100022: footBack.R
+    100024: FootRoll.L
+    100026: FootRoll.R
+    100028: FootRollBack.L
+    100030: FootRollBack.R
+    100032: forearm.L
+    100034: forearm.R
+    100036: hand.L
+    100038: hand.R
+    100040: head
+    100042: hips
+    100044: Leg IK.L
+    100046: Leg IK.R
+    100048: Leg IKBack.L
+    100050: Leg IKBack.R
+    100052: LegControl.L
+    100054: LegControl.R
+    100056: LegControlBack.L
+    100058: LegControlBack.R
+    100060: LegPoleTarget.L
+    100062: LegPoleTarget.R
+    100064: LegPoleTargetBack.L
+    100066: LegPoleTargetBack.R
+    100068: lowerBodyBack
+    100070: lowerBodyFront
+    100072: neck
+    100074: shin.L
+    100076: shin.R
+    100078: shinBack.L
+    100080: shinBack.R
+    100082: spine
+    100084: tail0
+    100086: tail1
+    100088: tail3
+    100090: thigh.L
+    100092: thigh.R
+    100094: thighBack.L
+    100096: thighBack.R
+    100098: toe.L
+    100100: toe.R
+    100102: toeBack.L
+    100104: toeBack.R
+    100106: ToesControl.L
+    100108: ToesControl.R
+    100110: ToesControlBack.L
+    100112: ToesControlBack.R
+    100114: upper_arm.L
+    100116: upper_arm.R
+    400000: //RootNode
+    400002: BullMentula
+    400004: BulltaurArmature
+    400006: chest
+    400008: clavicle.L
+    400010: clavicle.R
+    400012: fingers.L
+    400014: fingers.R
+    400016: foot.L
+    400018: foot.R
+    400020: footBack.L
+    400022: footBack.R
+    400024: FootRoll.L
+    400026: FootRoll.R
+    400028: FootRollBack.L
+    400030: FootRollBack.R
+    400032: forearm.L
+    400034: forearm.R
+    400036: hand.L
+    400038: hand.R
+    400040: head
+    400042: hips
+    400044: Leg IK.L
+    400046: Leg IK.R
+    400048: Leg IKBack.L
+    400050: Leg IKBack.R
+    400052: LegControl.L
+    400054: LegControl.R
+    400056: LegControlBack.L
+    400058: LegControlBack.R
+    400060: LegPoleTarget.L
+    400062: LegPoleTarget.R
+    400064: LegPoleTargetBack.L
+    400066: LegPoleTargetBack.R
+    400068: lowerBodyBack
+    400070: lowerBodyFront
+    400072: neck
+    400074: shin.L
+    400076: shin.R
+    400078: shinBack.L
+    400080: shinBack.R
+    400082: spine
+    400084: tail0
+    400086: tail1
+    400088: tail3
+    400090: thigh.L
+    400092: thigh.R
+    400094: thighBack.L
+    400096: thighBack.R
+    400098: toe.L
+    400100: toe.R
+    400102: toeBack.L
+    400104: toeBack.R
+    400106: ToesControl.L
+    400108: ToesControl.R
+    400110: ToesControlBack.L
+    400112: ToesControlBack.R
+    400114: upper_arm.L
+    400116: upper_arm.R
+    4300000: BullMentula
+    7400000: BulltaurArmature|Attack
+    7400002: BulltaurArmature|Death
+    7400004: BulltaurArmature|Idle
+    7400006: BulltaurArmature|JustForTesting
+    7400008: BulltaurArmature|Move
+    7400010: BulltaurArmature|TakeDamage
+    9500000: //RootNode
+    13700000: BullMentula
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BulltaurArmature|Attack
+      takeName: BulltaurArmature|Attack
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .628188193
+        functionName: AttackAnimationDealDamageEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BullMentula
+        weight: 1
+      - path: BulltaurArmature
+        weight: 1
+      - path: BulltaurArmature/LegControl.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BulltaurArmature/LegPoleTarget.L
+        weight: 1
+      - path: BulltaurArmature/LegPoleTarget.R
+        weight: 1
+      - path: BulltaurArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BulltaurArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BulltaurArmature|Death
+      takeName: BulltaurArmature|Death
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BullMentula
+        weight: 1
+      - path: BulltaurArmature
+        weight: 1
+      - path: BulltaurArmature/LegControl.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BulltaurArmature/LegPoleTarget.L
+        weight: 1
+      - path: BulltaurArmature/LegPoleTarget.R
+        weight: 1
+      - path: BulltaurArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BulltaurArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BulltaurArmature|Idle
+      takeName: BulltaurArmature|Idle
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BullMentula
+        weight: 1
+      - path: BulltaurArmature
+        weight: 1
+      - path: BulltaurArmature/LegControl.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BulltaurArmature/LegPoleTarget.L
+        weight: 1
+      - path: BulltaurArmature/LegPoleTarget.R
+        weight: 1
+      - path: BulltaurArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BulltaurArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BulltaurArmature|JustForTesting
+      takeName: BulltaurArmature|JustForTesting
+      firstFrame: 0
+      lastFrame: 282
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BullMentula
+        weight: 1
+      - path: BulltaurArmature
+        weight: 1
+      - path: BulltaurArmature/LegControl.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BulltaurArmature/LegPoleTarget.L
+        weight: 1
+      - path: BulltaurArmature/LegPoleTarget.R
+        weight: 1
+      - path: BulltaurArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BulltaurArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BulltaurArmature|Move
+      takeName: BulltaurArmature|Move
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BullMentula
+        weight: 1
+      - path: BulltaurArmature
+        weight: 1
+      - path: BulltaurArmature/LegControl.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BulltaurArmature/LegPoleTarget.L
+        weight: 1
+      - path: BulltaurArmature/LegPoleTarget.R
+        weight: 1
+      - path: BulltaurArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BulltaurArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BulltaurArmature|TakeDamage
+      takeName: BulltaurArmature|TakeDamage
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .861105561
+        functionName: TakeDamageAnimationFinishedEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BullMentula
+        weight: 1
+      - path: BulltaurArmature
+        weight: 1
+      - path: BulltaurArmature/LegControl.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: BulltaurArmature/LegControl.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: BulltaurArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/FootRollBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/FootRollBack.L/Leg IKBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.L/ToesControlBack.L
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/FootRollBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/FootRollBack.R/Leg IKBack.R
+        weight: 1
+      - path: BulltaurArmature/LegControlBack.R/ToesControlBack.R
+        weight: 1
+      - path: BulltaurArmature/LegPoleTarget.L
+        weight: 1
+      - path: BulltaurArmature/LegPoleTarget.R
+        weight: 1
+      - path: BulltaurArmature/LegPoleTargetBack.L
+        weight: 1
+      - path: BulltaurArmature/LegPoleTargetBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/spine/chest/neck/head
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/lowerBodyFront/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0/tail1
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/tail0/tail1/tail3
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.L/shinBack.L/footBack.L/toeBack.L
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R
+        weight: 1
+      - path: BulltaurArmature/lowerBodyBack/thighBack.R/shinBack.R/footBack.R/toeBack.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: lowerBodyBack
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

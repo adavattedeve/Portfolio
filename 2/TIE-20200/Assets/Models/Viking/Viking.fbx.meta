@@ -1,0 +1,824 @@
+fileFormatVersion: 2
+guid: 74ba7fdadc3e1e043ba0f74ac49ac7bb
+timeCreated: 1446795636
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BattleAxe
+    100002: chest
+    100004: clavicle.L
+    100006: clavicle.R
+    100008: fingers.L
+    100010: fingers.R
+    100012: foot.L
+    100014: foot.R
+    100016: FootRoll.L
+    100018: FootRoll.R
+    100020: forearm.L
+    100022: forearm.R
+    100024: hairLower.L
+    100026: hairLower.R
+    100028: hairUpper.L
+    100030: hairUpper.R
+    100032: hand.L
+    100034: hand.R
+    100036: head
+    100038: hips
+    100040: Leg IK.L
+    100042: Leg IK.R
+    100044: LegControl.L
+    100046: LegControl.R
+    100048: LegPoleTarget.L
+    100050: LegPoleTarget.R
+    100052: neck
+    100054: shin.L
+    100056: shin.R
+    100058: spine
+    100060: thigh.L
+    100062: thigh.R
+    100064: toe.L
+    100066: toe.R
+    100068: ToesControl.L
+    100070: ToesControl.R
+    100072: upper_arm.L
+    100074: upper_arm.R
+    100076: //RootNode
+    100078: Viking
+    100080: VikingArmature
+    400000: BattleAxe
+    400002: chest
+    400004: clavicle.L
+    400006: clavicle.R
+    400008: fingers.L
+    400010: fingers.R
+    400012: foot.L
+    400014: foot.R
+    400016: FootRoll.L
+    400018: FootRoll.R
+    400020: forearm.L
+    400022: forearm.R
+    400024: hairLower.L
+    400026: hairLower.R
+    400028: hairUpper.L
+    400030: hairUpper.R
+    400032: hand.L
+    400034: hand.R
+    400036: head
+    400038: hips
+    400040: Leg IK.L
+    400042: Leg IK.R
+    400044: LegControl.L
+    400046: LegControl.R
+    400048: LegPoleTarget.L
+    400050: LegPoleTarget.R
+    400052: neck
+    400054: shin.L
+    400056: shin.R
+    400058: spine
+    400060: thigh.L
+    400062: thigh.R
+    400064: toe.L
+    400066: toe.R
+    400068: ToesControl.L
+    400070: ToesControl.R
+    400072: upper_arm.L
+    400074: upper_arm.R
+    400076: Viking
+    400078: //RootNode
+    400080: VikingArmature
+    4300000: Viking
+    4300002: BattleAxe
+    7400000: VikingArmature|Attack
+    7400002: VikingArmature|Death
+    7400004: VikingArmature|Idle.001
+    7400006: VikingArmature|JUSTFORTESTING
+    7400008: VikingArmature|Move
+    7400010: VikingArmature|TakeDamage
+    9500000: //RootNode
+    13700000: BattleAxe
+    13700002: Viking
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: VikingArmature|Attack
+      takeName: VikingArmature|Attack
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: -25
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .684786916
+        functionName: AttackAnimationDealDamageEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BattleAxe
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: VikingArmature
+        weight: 1
+      - path: VikingArmature/hips
+        weight: 1
+      - path: VikingArmature/hips/spine
+        weight: 1
+      - path: VikingArmature/hips/spine/chest
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.L/hairLower.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.R/hairLower.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: VikingArmature/LegControl.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: VikingArmature/LegControl.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: VikingArmature/LegPoleTarget.L
+        weight: 1
+      - path: VikingArmature/LegPoleTarget.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: VikingArmature|Death
+      takeName: VikingArmature|Death
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: -25
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BattleAxe
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: VikingArmature
+        weight: 1
+      - path: VikingArmature/hips
+        weight: 1
+      - path: VikingArmature/hips/spine
+        weight: 1
+      - path: VikingArmature/hips/spine/chest
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.L/hairLower.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.R/hairLower.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: VikingArmature/LegControl.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: VikingArmature/LegControl.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: VikingArmature/LegPoleTarget.L
+        weight: 1
+      - path: VikingArmature/LegPoleTarget.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: VikingArmature|Idle.001
+      takeName: VikingArmature|Idle.001
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: -25
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BattleAxe
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: VikingArmature
+        weight: 1
+      - path: VikingArmature/hips
+        weight: 1
+      - path: VikingArmature/hips/spine
+        weight: 1
+      - path: VikingArmature/hips/spine/chest
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.L/hairLower.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.R/hairLower.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: VikingArmature/LegControl.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: VikingArmature/LegControl.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: VikingArmature/LegPoleTarget.L
+        weight: 1
+      - path: VikingArmature/LegPoleTarget.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: VikingArmature|JUSTFORTESTING
+      takeName: VikingArmature|JUSTFORTESTING
+      firstFrame: 0
+      lastFrame: 290
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BattleAxe
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: VikingArmature
+        weight: 1
+      - path: VikingArmature/hips
+        weight: 1
+      - path: VikingArmature/hips/spine
+        weight: 1
+      - path: VikingArmature/hips/spine/chest
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.L/hairLower.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.R/hairLower.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: VikingArmature/LegControl.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: VikingArmature/LegControl.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: VikingArmature/LegPoleTarget.L
+        weight: 1
+      - path: VikingArmature/LegPoleTarget.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: VikingArmature|Move
+      takeName: VikingArmature|Move
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BattleAxe
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: VikingArmature
+        weight: 1
+      - path: VikingArmature/hips
+        weight: 1
+      - path: VikingArmature/hips/spine
+        weight: 1
+      - path: VikingArmature/hips/spine/chest
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.L/hairLower.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.R/hairLower.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: VikingArmature/LegControl.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: VikingArmature/LegControl.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: VikingArmature/LegPoleTarget.L
+        weight: 1
+      - path: VikingArmature/LegPoleTarget.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: VikingArmature|TakeDamage
+      takeName: VikingArmature|TakeDamage
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: -25
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .90860641
+        functionName: TakeDamageAnimationFinishedEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BattleAxe
+        weight: 1
+      - path: Viking
+        weight: 1
+      - path: VikingArmature
+        weight: 1
+      - path: VikingArmature/hips
+        weight: 1
+      - path: VikingArmature/hips/spine
+        weight: 1
+      - path: VikingArmature/hips/spine/chest
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/fingers.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/fingers.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.L/hairLower.L
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.R
+        weight: 1
+      - path: VikingArmature/hips/spine/chest/neck/head/hairUpper.R/hairLower.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: VikingArmature/hips/thigh.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: VikingArmature/hips/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: VikingArmature/LegControl.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/FootRoll.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: VikingArmature/LegControl.L/ToesControl.L
+        weight: 1
+      - path: VikingArmature/LegControl.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/FootRoll.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: VikingArmature/LegControl.R/ToesControl.R
+        weight: 1
+      - path: VikingArmature/LegPoleTarget.L
+        weight: 1
+      - path: VikingArmature/LegPoleTarget.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: hips
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
